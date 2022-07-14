@@ -18,7 +18,8 @@ event varchar,
 medal varchar);
 ```
 # _Second table_:
-```drop table if exists Noc_regions;
+```
+drop table if exists Noc_regions;
 create table if not exists Noc_regions (
 Noc varchar,
 region varchar,
